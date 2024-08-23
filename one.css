@@ -1,0 +1,101 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
+.body{
+     background-image: ; 
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "poppins", sans-serif;
+
+}
+/* navbar styles */
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navbar-logo {
+  font-weight: 600;
+}
+.nav-link {
+  display: inline-flex;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .nav-link {
+    display: flex;
+  }
+}
+.nav-link a {
+  color: rgba(66, 18, 18, 0.633);
+}
+
+/* style section */
+.content{
+   color: rgb(242, 232, 232);
+}
+
+.main-section{
+background-color: #000;
+
+}
+
+#HOME {
+  background: linear-gradient(
+    -45deg,
+    rgb(56, 37, 37) 50%,
+    rgb(97, 70, 70) 0%
+  );
+}
+
+img{
+    border-radius: 8000px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 15%;
+
+    
+
+}
+
+#ABOUT {
+  background: linear-gradient(-45deg, rgba(18, 14, 14, 0.87) 50%, rgba(28, 26, 26, 0.431) 0%);
+  
+}
+#WORK{
+  background: rgba(17, 17, 17, 0.862);
+
+}
+
+
+#RESUME {
+  background: linear-gradient(-45deg, rgba(30, 23, 20, 0.886) 50%, rgba(66, 47, 47, 0.938) 0%);
+
+}
+#CONTACT {
+  background: linear-gradient(-45deg, rgb(177, 147, 135) 50%, rgba(43, 24, 19, 0.84) 0%);
+ 
+}
